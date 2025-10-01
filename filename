@@ -1,0 +1,5 @@
+name,age,grade,subject
+Peter,15,9,math
+Alice,14,9,scienceKelly,15,9,literatureAmy,14,9,mathAdam,15,9,mathSam,14,9,sciencePia,14,9,mathSean,15,9,history
+Peter,15,9,math
+> Alice,14,59,scienceKelly,15,75,literatureAmy,14,93,mathAdam,15,79,mathSam,14,99,sciencePia,14,89,mathSean,15,39,historyAlex,16,85,math

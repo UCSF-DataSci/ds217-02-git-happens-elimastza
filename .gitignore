@@ -1,0 +1,54 @@
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ pwd
+/workspaces/ds217-02-git-happens-elimastza
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git branch main
+fatal: a branch named 'main' already exists
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git branch `feature/project-scaffold`
+bash: feature/project-scaffold: No such file or directory
+  feature/data-processing
+  feature/project-scaffold
+* main
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git branch feature/project-scaffo
+ld
+fatal: a branch named 'feature/project-scaffold' already exists
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git branch feature/data-processing
+fatal: a branch named 'feature/data-processing' already exists
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git commit -m'3 branches created'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git merge feature/project-scaffold
+Already up to date.
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git merge feature/data-processing
+Already up to date.
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git checout main
+git: 'checout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git merge feature/project-scaffold
+Already up to date.
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git push origin main
+Everything up-to-date
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $  chmod +x setup_project.sh
+chmod: cannot access 'setup_project.sh': No such file or directory
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (main) $ git checkout feature/project-scaffold
+Switched to branch 'feature/project-scaffold'
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ tree
+.
+├── README.md
+├── TIPS.md
+└── requirements.txt
+
+1 directory, 3 files
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ chmod +x setu
+p_project.sh
+chmod: cannot access 'setup_project.sh': No such file or directory
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ mkdir -p setup_project.sh
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ mkdir -p src data ouput
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $  cat sample.csv 
+cat: sample.csv: No such file or directory
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ 
