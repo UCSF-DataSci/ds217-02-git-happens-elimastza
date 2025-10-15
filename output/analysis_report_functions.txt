@@ -1,0 +1,1 @@
+("Letter Grades: ['F', 'D', 'A', 'B', 'B', 'A', 'C', 'A', 'A', 'A']\n", 'Minimum Grade: 53\n', 'Maximum Grade: 100\n', 'Math Students: 2\n', 'Data Science Students: 1\n', 'Psychology Students: 1\n', 'History Students: 2\n', 'Anatomy Students: 1\n')

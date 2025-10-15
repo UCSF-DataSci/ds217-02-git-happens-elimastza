@@ -1,0 +1,1 @@
+('Total # of Students: 10\n', 'Average Grade:  83.6\n', 'Math Students: 2\n', 'Data Science Students: 3\n', 'Psychology Students: 2\n', 'History Students: 2\n', 'Anatomy Students: 1\n')

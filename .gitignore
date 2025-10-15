@@ -51,4 +51,7 @@ chmod: cannot access 'setup_project.sh': No such file or directory
 @elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ mkdir -p src data ouput
 @elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $  cat sample.csv 
 cat: sample.csv: No such file or directory
-@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ 
+@elimastza ➜ /workspaces/ds217-02-git-happens-elimastza (feature/project-scaffold) $ def calculate_average(grades):
+    """Calculate the average of a list of grades."""    if not grades:
+    return 0    return sum(grades) / len(grades) 
+    

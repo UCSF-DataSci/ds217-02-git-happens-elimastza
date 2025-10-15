@@ -145,7 +145,7 @@ After running your script, the following files and directories should exist:
 **Basic Analysis Script** (`src/data_analysis.py`):
 
 Your script should:
-- Read the CSV file line by line using `open()` and `readlines()`
+- Read the CSV file line by line using open()` and `readlines()`
 - Split each line by commas to extract fields
 - Calculate basic statistics (total students, average grade)
 - Count students by subject
